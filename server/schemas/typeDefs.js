@@ -45,7 +45,7 @@ type Mutation {
   saveBook(
     input: bookInput
   ): User
-  removeBook(userId: ID!, bookId: ID!): User
+  removeBook(bookId: ID!): User
 }
 `
 
